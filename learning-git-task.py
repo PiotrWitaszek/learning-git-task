@@ -5,3 +5,4 @@ lista_zakupów= {
 print(lista_zakupów)
 for keys in lista_zakupów:
     print("Idę do %s i kupuję tam: %s" % (keys.capitalize(),  [x.capitalize() for x in lista_zakupów[keys]]))
+print("W sumię kupuję", sum([len(x) for x in lista_zakupów.values()]), "produktów.")
