@@ -1,6 +1,3 @@
-from sre_constants import BRANCH
-
-
 lista_zakupów= {
     "warzywniak": ["marchew", "seler", "rukola"],
     "piekarnia": ["bułki", "chleb", "pączek"]
